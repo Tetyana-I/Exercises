@@ -1,0 +1,26 @@
+const PI = 3.14;
+
+What is the difference between var and let?
+    
+    1) var - scoped to a function it declared,
+    let - scoped to a code block it declared;
+    2) var - can be reassigned and redeclared at any point;
+    let - can be reassigned, but cannot be redeclared in the same scope;
+    3) var - declared in global scope will be added to the Window object;
+    let - declared in global scope will NOT be added to the Window object.
+
+
+What is the difference between var and const?
+    1) var - scoped to a function it declared,
+    const - scoped to a code block it declared;
+    2) var - can be reassigned and redeclared at any point;
+    let - can not be reassigned or redeclared in the same scope.
+
+
+What is the difference between let and const?
+-   let - can be reassigned in the same scope;
+    const - can not be reassigned in the same scope.
+
+
+What is hoisting?
+-   when variables can be used before they are declared.
